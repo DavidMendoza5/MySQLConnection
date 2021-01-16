@@ -19,3 +19,13 @@ You have to create your **.env** file
 `
 
 Remember that MySQL uses root as a defalut user.
+
+You can run a MySQL terminal wit the next command:
+
+`docker exec -it NombreImagen mysql -p
+`
+
+Creating the database:
+
+`CREATE DATABASE name;
+`
